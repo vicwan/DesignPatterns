@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "Abstract/PizzaStore.h"
+#import "PizzaStore.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {

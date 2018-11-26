@@ -8,11 +8,20 @@
 
 #import <Foundation/Foundation.h>
 
+#import "Dough.h"
+#import "Sauce.h"
+#import "Cheese.h"
+#import "IngredientFactory.h"
+
 #define PRINT NSLog(@"%@ %@",self.className,NSStringFromSelector(_cmd));
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Pizza : NSObject
+
+@property (nonatomic, strong) IngredientFactory *ingredientFactory;
+
+- (instancetype)initWithIngredientFactory:(IngredientFactory *)ingredientFactory;
 
 - (void)prepare;
 - (void)bake;

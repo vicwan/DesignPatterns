@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D8578E921AC20C30008ACBC /* NYSauce.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8578E821AC20C30008ACBC /* NYSauce.m */; };
+		0D8578EC21AC20E00008ACBC /* NYDough.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8578EB21AC20E00008ACBC /* NYDough.m */; };
+		0DB77C8621AC1E9200A48DE8 /* Dough.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB77C8521AC1E9200A48DE8 /* Dough.m */; };
+		0DB77C8921AC1E9D00A48DE8 /* Sauce.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB77C8821AC1E9D00A48DE8 /* Sauce.m */; };
+		0DB77C8C21AC1EAB00A48DE8 /* Cheese.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB77C8B21AC1EAB00A48DE8 /* Cheese.m */; };
+		0DB77C8F21AC1F0200A48DE8 /* CADough.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB77C8E21AC1F0200A48DE8 /* CADough.m */; };
+		0DB77C9221AC1F0D00A48DE8 /* CASauce.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB77C9121AC1F0D00A48DE8 /* CASauce.m */; };
+		0DB77C9521AC1F1900A48DE8 /* CACheese.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB77C9421AC1F1900A48DE8 /* CACheese.m */; };
+		0DB77C9821AC1F2400A48DE8 /* NYCheese.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB77C9721AC1F2400A48DE8 /* NYCheese.m */; };
+		0DB77CA121AC1F6D00A48DE8 /* IngredientFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB77CA021AC1F6D00A48DE8 /* IngredientFactory.m */; };
+		0DB77CA421AC1F9600A48DE8 /* CAIngredientFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB77CA321AC1F9600A48DE8 /* CAIngredientFactory.m */; };
+		0DB77CA721AC1FA100A48DE8 /* NYIngredientFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB77CA621AC1FA100A48DE8 /* NYIngredientFactory.m */; };
 		0DCAFC9B21AAEDB900968AB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCAFC9A21AAEDB900968AB3 /* main.m */; };
 		0DCAFCC121AAEE3500968AB3 /* NYPizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCAFCAF21AAEE3400968AB3 /* NYPizzaStore.m */; };
 		0DCAFCC221AAEE3500968AB3 /* NYStyleCheesePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCAFCB021AAEE3400968AB3 /* NYStyleCheesePizza.m */; };
@@ -41,6 +53,30 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0D8578E721AC20C30008ACBC /* NYSauce.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYSauce.h; sourceTree = "<group>"; };
+		0D8578E821AC20C30008ACBC /* NYSauce.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYSauce.m; sourceTree = "<group>"; };
+		0D8578EA21AC20E00008ACBC /* NYDough.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYDough.h; sourceTree = "<group>"; };
+		0D8578EB21AC20E00008ACBC /* NYDough.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYDough.m; sourceTree = "<group>"; };
+		0DB77C8421AC1E9200A48DE8 /* Dough.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dough.h; sourceTree = "<group>"; };
+		0DB77C8521AC1E9200A48DE8 /* Dough.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dough.m; sourceTree = "<group>"; };
+		0DB77C8721AC1E9D00A48DE8 /* Sauce.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sauce.h; sourceTree = "<group>"; };
+		0DB77C8821AC1E9D00A48DE8 /* Sauce.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sauce.m; sourceTree = "<group>"; };
+		0DB77C8A21AC1EAB00A48DE8 /* Cheese.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cheese.h; sourceTree = "<group>"; };
+		0DB77C8B21AC1EAB00A48DE8 /* Cheese.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cheese.m; sourceTree = "<group>"; };
+		0DB77C8D21AC1F0200A48DE8 /* CADough.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CADough.h; sourceTree = "<group>"; };
+		0DB77C8E21AC1F0200A48DE8 /* CADough.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CADough.m; sourceTree = "<group>"; };
+		0DB77C9021AC1F0D00A48DE8 /* CASauce.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CASauce.h; sourceTree = "<group>"; };
+		0DB77C9121AC1F0D00A48DE8 /* CASauce.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CASauce.m; sourceTree = "<group>"; };
+		0DB77C9321AC1F1900A48DE8 /* CACheese.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CACheese.h; sourceTree = "<group>"; };
+		0DB77C9421AC1F1900A48DE8 /* CACheese.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CACheese.m; sourceTree = "<group>"; };
+		0DB77C9621AC1F2400A48DE8 /* NYCheese.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYCheese.h; sourceTree = "<group>"; };
+		0DB77C9721AC1F2400A48DE8 /* NYCheese.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYCheese.m; sourceTree = "<group>"; };
+		0DB77C9F21AC1F6D00A48DE8 /* IngredientFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IngredientFactory.h; sourceTree = "<group>"; };
+		0DB77CA021AC1F6D00A48DE8 /* IngredientFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IngredientFactory.m; sourceTree = "<group>"; };
+		0DB77CA221AC1F9600A48DE8 /* CAIngredientFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAIngredientFactory.h; sourceTree = "<group>"; };
+		0DB77CA321AC1F9600A48DE8 /* CAIngredientFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAIngredientFactory.m; sourceTree = "<group>"; };
+		0DB77CA521AC1FA100A48DE8 /* NYIngredientFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYIngredientFactory.h; sourceTree = "<group>"; };
+		0DB77CA621AC1FA100A48DE8 /* NYIngredientFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYIngredientFactory.m; sourceTree = "<group>"; };
 		0DCAFC9721AAEDB900968AB3 /* DesignPatterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPatterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DCAFC9A21AAEDB900968AB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0DCAFCA521AAEE1600968AB3 /* Factory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Factory; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +117,123 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DB77C7821AC1D7100A48DE8 /* Pizza */ = {
+			isa = PBXGroup;
+			children = (
+				0DCAFCC021AAEE3500968AB3 /* Pizza.h */,
+				0DCAFCBE21AAEE3500968AB3 /* Pizza.m */,
+				0DB77C7C21AC1DB000A48DE8 /* CA */,
+				0DB77C7B21AC1DAA00A48DE8 /* NewYork */,
+			);
+			path = Pizza;
+			sourceTree = "<group>";
+		};
+		0DB77C7921AC1D7800A48DE8 /* PizzaStore */ = {
+			isa = PBXGroup;
+			children = (
+				0DCAFCBD21AAEE3500968AB3 /* PizzaStore.h */,
+				0DCAFCBF21AAEE3500968AB3 /* PizzaStore.m */,
+				0DB77C7E21AC1DC400A48DE8 /* CA */,
+				0DB77C7D21AC1DBE00A48DE8 /* NewYork */,
+			);
+			path = PizzaStore;
+			sourceTree = "<group>";
+		};
+		0DB77C7A21AC1D7F00A48DE8 /* PizzaIngredient */ = {
+			isa = PBXGroup;
+			children = (
+				0DB77CA821AC1FB900A48DE8 /* Abstract */,
+				0DB77C8021AC1E0800A48DE8 /* CA */,
+				0DB77C7F21AC1E0200A48DE8 /* NewYork */,
+			);
+			path = PizzaIngredient;
+			sourceTree = "<group>";
+		};
+		0DB77C7B21AC1DAA00A48DE8 /* NewYork */ = {
+			isa = PBXGroup;
+			children = (
+				0DCAFCAE21AAEE3400968AB3 /* NYStyleVeggiePizza.h */,
+				0DCAFCB121AAEE3400968AB3 /* NYStyleVeggiePizza.m */,
+				0DCAFCB321AAEE3400968AB3 /* NYStyleCheesePizza.h */,
+				0DCAFCB021AAEE3400968AB3 /* NYStyleCheesePizza.m */,
+			);
+			path = NewYork;
+			sourceTree = "<group>";
+		};
+		0DB77C7C21AC1DB000A48DE8 /* CA */ = {
+			isa = PBXGroup;
+			children = (
+				0DCAFCB521AAEE3400968AB3 /* CAStyleClamPizza.h */,
+				0DCAFCB821AAEE3400968AB3 /* CAStyleClamPizza.m */,
+				0DCAFCBA21AAEE3400968AB3 /* CAStylePepperoniPizza.h */,
+				0DCAFCB621AAEE3400968AB3 /* CAStylePepperoniPizza.m */,
+			);
+			path = CA;
+			sourceTree = "<group>";
+		};
+		0DB77C7D21AC1DBE00A48DE8 /* NewYork */ = {
+			isa = PBXGroup;
+			children = (
+				0DCAFCB221AAEE3400968AB3 /* NYPizzaStore.h */,
+				0DCAFCAF21AAEE3400968AB3 /* NYPizzaStore.m */,
+			);
+			path = NewYork;
+			sourceTree = "<group>";
+		};
+		0DB77C7E21AC1DC400A48DE8 /* CA */ = {
+			isa = PBXGroup;
+			children = (
+				0DCAFCB721AAEE3400968AB3 /* CAPizzaStore.h */,
+				0DCAFCB921AAEE3400968AB3 /* CAPizzaStore.m */,
+			);
+			path = CA;
+			sourceTree = "<group>";
+		};
+		0DB77C7F21AC1E0200A48DE8 /* NewYork */ = {
+			isa = PBXGroup;
+			children = (
+				0DB77C9621AC1F2400A48DE8 /* NYCheese.h */,
+				0DB77C9721AC1F2400A48DE8 /* NYCheese.m */,
+				0D8578E721AC20C30008ACBC /* NYSauce.h */,
+				0D8578E821AC20C30008ACBC /* NYSauce.m */,
+				0D8578EA21AC20E00008ACBC /* NYDough.h */,
+				0D8578EB21AC20E00008ACBC /* NYDough.m */,
+				0DB77CA521AC1FA100A48DE8 /* NYIngredientFactory.h */,
+				0DB77CA621AC1FA100A48DE8 /* NYIngredientFactory.m */,
+			);
+			path = NewYork;
+			sourceTree = "<group>";
+		};
+		0DB77C8021AC1E0800A48DE8 /* CA */ = {
+			isa = PBXGroup;
+			children = (
+				0DB77C8D21AC1F0200A48DE8 /* CADough.h */,
+				0DB77C8E21AC1F0200A48DE8 /* CADough.m */,
+				0DB77C9021AC1F0D00A48DE8 /* CASauce.h */,
+				0DB77C9121AC1F0D00A48DE8 /* CASauce.m */,
+				0DB77C9321AC1F1900A48DE8 /* CACheese.h */,
+				0DB77C9421AC1F1900A48DE8 /* CACheese.m */,
+				0DB77CA221AC1F9600A48DE8 /* CAIngredientFactory.h */,
+				0DB77CA321AC1F9600A48DE8 /* CAIngredientFactory.m */,
+			);
+			path = CA;
+			sourceTree = "<group>";
+		};
+		0DB77CA821AC1FB900A48DE8 /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				0DB77C8421AC1E9200A48DE8 /* Dough.h */,
+				0DB77C8521AC1E9200A48DE8 /* Dough.m */,
+				0DB77C8721AC1E9D00A48DE8 /* Sauce.h */,
+				0DB77C8821AC1E9D00A48DE8 /* Sauce.m */,
+				0DB77C8A21AC1EAB00A48DE8 /* Cheese.h */,
+				0DB77C8B21AC1EAB00A48DE8 /* Cheese.m */,
+				0DB77C9F21AC1F6D00A48DE8 /* IngredientFactory.h */,
+				0DB77CA021AC1F6D00A48DE8 /* IngredientFactory.m */,
+			);
+			path = Abstract;
+			sourceTree = "<group>";
+		};
 		0DCAFC8E21AAEDB900968AB3 = {
 			isa = PBXGroup;
 			children = (
@@ -111,56 +264,11 @@
 			isa = PBXGroup;
 			children = (
 				0DCAFCCA21AAEE4100968AB3 /* main.m */,
-				0DCAFCBC21AAEE3500968AB3 /* Abstract */,
-				0DCAFCAC21AAEE3400968AB3 /* Concrete */,
+				0DB77C7A21AC1D7F00A48DE8 /* PizzaIngredient */,
+				0DB77C7921AC1D7800A48DE8 /* PizzaStore */,
+				0DB77C7821AC1D7100A48DE8 /* Pizza */,
 			);
 			path = Factory;
-			sourceTree = "<group>";
-		};
-		0DCAFCAC21AAEE3400968AB3 /* Concrete */ = {
-			isa = PBXGroup;
-			children = (
-				0DCAFCAD21AAEE3400968AB3 /* NewYork */,
-				0DCAFCB421AAEE3400968AB3 /* CA */,
-			);
-			path = Concrete;
-			sourceTree = "<group>";
-		};
-		0DCAFCAD21AAEE3400968AB3 /* NewYork */ = {
-			isa = PBXGroup;
-			children = (
-				0DCAFCAE21AAEE3400968AB3 /* NYStyleVeggiePizza.h */,
-				0DCAFCAF21AAEE3400968AB3 /* NYPizzaStore.m */,
-				0DCAFCB021AAEE3400968AB3 /* NYStyleCheesePizza.m */,
-				0DCAFCB121AAEE3400968AB3 /* NYStyleVeggiePizza.m */,
-				0DCAFCB221AAEE3400968AB3 /* NYPizzaStore.h */,
-				0DCAFCB321AAEE3400968AB3 /* NYStyleCheesePizza.h */,
-			);
-			path = NewYork;
-			sourceTree = "<group>";
-		};
-		0DCAFCB421AAEE3400968AB3 /* CA */ = {
-			isa = PBXGroup;
-			children = (
-				0DCAFCB521AAEE3400968AB3 /* CAStyleClamPizza.h */,
-				0DCAFCB621AAEE3400968AB3 /* CAStylePepperoniPizza.m */,
-				0DCAFCB721AAEE3400968AB3 /* CAPizzaStore.h */,
-				0DCAFCB821AAEE3400968AB3 /* CAStyleClamPizza.m */,
-				0DCAFCB921AAEE3400968AB3 /* CAPizzaStore.m */,
-				0DCAFCBA21AAEE3400968AB3 /* CAStylePepperoniPizza.h */,
-			);
-			path = CA;
-			sourceTree = "<group>";
-		};
-		0DCAFCBC21AAEE3500968AB3 /* Abstract */ = {
-			isa = PBXGroup;
-			children = (
-				0DCAFCBD21AAEE3500968AB3 /* PizzaStore.h */,
-				0DCAFCBE21AAEE3500968AB3 /* Pizza.m */,
-				0DCAFCBF21AAEE3500968AB3 /* PizzaStore.m */,
-				0DCAFCC021AAEE3500968AB3 /* Pizza.h */,
-			);
-			path = Abstract;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,15 +356,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DB77CA721AC1FA100A48DE8 /* NYIngredientFactory.m in Sources */,
 				0DCAFCC821AAEE3500968AB3 /* Pizza.m in Sources */,
+				0DB77C9221AC1F0D00A48DE8 /* CASauce.m in Sources */,
 				0DCAFCC321AAEE3500968AB3 /* NYStyleVeggiePizza.m in Sources */,
 				0DCAFCC521AAEE3500968AB3 /* CAStyleClamPizza.m in Sources */,
+				0DB77C8621AC1E9200A48DE8 /* Dough.m in Sources */,
+				0DB77C8C21AC1EAB00A48DE8 /* Cheese.m in Sources */,
 				0DCAFCC621AAEE3500968AB3 /* CAPizzaStore.m in Sources */,
+				0D8578E921AC20C30008ACBC /* NYSauce.m in Sources */,
+				0DB77CA121AC1F6D00A48DE8 /* IngredientFactory.m in Sources */,
 				0DCAFCC221AAEE3500968AB3 /* NYStyleCheesePizza.m in Sources */,
 				0DCAFCC921AAEE3500968AB3 /* PizzaStore.m in Sources */,
+				0DB77C9821AC1F2400A48DE8 /* NYCheese.m in Sources */,
 				0DCAFCC121AAEE3500968AB3 /* NYPizzaStore.m in Sources */,
+				0DB77C8F21AC1F0200A48DE8 /* CADough.m in Sources */,
 				0DCAFCCB21AAEE4100968AB3 /* main.m in Sources */,
+				0DB77C8921AC1E9D00A48DE8 /* Sauce.m in Sources */,
+				0DB77CA421AC1F9600A48DE8 /* CAIngredientFactory.m in Sources */,
+				0DB77C9521AC1F1900A48DE8 /* CACheese.m in Sources */,
 				0DCAFCC421AAEE3500968AB3 /* CAStylePepperoniPizza.m in Sources */,
+				0D8578EC21AC20E00008ACBC /* NYDough.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,20 +11,27 @@
 
 @implementation Pizza
 
+- (instancetype)initWithIngredientFactory:(IngredientFactory *)ingredientFactory {
+    if (self = [super init]) {
+        _ingredientFactory = ingredientFactory;
+    }
+    return self;
+}
+
 - (void)prepare {
     
 }
 
 - (void)bake {
-    
+    PRINT
 }
 
 - (void)cut {
-    
+    PRINT
 }
 
 - (void)box {
-    
+    PRINT
 }
 
 @end

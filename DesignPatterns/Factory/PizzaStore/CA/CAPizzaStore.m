@@ -10,14 +10,17 @@
 #import "CAStyleClamPizza.h"
 #import "CAStylePepperoniPizza.h"
 
+#import "CAIngredientFactory.h"
+
 @implementation CAPizzaStore
 
 - (Pizza *)createPizza:(NSString *)pizzaName {
     Pizza *ret;
+    CAIngredientFactory *ingredientFactory = [[CAIngredientFactory alloc] init];
     if ([pizzaName isEqualToString:@"clam"]) {
-        ret = [[CAStyleClamPizza alloc] init];
+        ret = [[CAStyleClamPizza alloc] initWithIngredientFactory:ingredientFactory];
     }else if ([pizzaName isEqualToString:@"pepperoni"]) {
-        ret = [[CAStylePepperoniPizza alloc] init];
+        ret = [[CAStylePepperoniPizza alloc] initWithIngredientFactory:ingredientFactory];
     }
     return ret;
 }

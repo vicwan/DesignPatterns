@@ -9,8 +9,8 @@
 #import "PizzaStore.h"
 #import "Pizza.h"
 
-#import "../Concrete/NewYork/NYPizzaStore.h"
-#import "../Concrete/CA/CAPizzaStore.h"
+#import "NYPizzaStore.h"
+#import "CAPizzaStore.h"
 
 @implementation PizzaStore
 
