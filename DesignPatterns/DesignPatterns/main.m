@@ -8,12 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSArray *arr = @[@"1", @"2"];
-        NSMutableArray *mArr = arr.mutableCopy;
-        [mArr addObject:@"3"];
-        NSLog(@"%@", mArr);
+        
     }
     return 0;
 }

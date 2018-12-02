@@ -45,7 +45,10 @@ int main(int argc, const char * argv[]) {
 //        [remote offButtonWasPressed:RemoteControllerLight];
         [remote setCommand:RemoteControllerParty onCommand:partyOnCmd offCommand:partyOffCmd];
         [remote onButtonWasPressed:RemoteControllerParty];
+        [remote offButtonWasPressed:RemoteControllerParty];
+        [remote offButtonWasPressed:8];
         
+        [remote undo];
         [remote undo];
         [remote undo];
     }

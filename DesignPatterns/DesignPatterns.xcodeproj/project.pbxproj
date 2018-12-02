@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D0C5B7421B3FD9D00BBBBE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0C5B7321B3FD9D00BBBBE0 /* main.m */; };
+		0D0C5B7B21B3FEAD00BBBBE0 /* MallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0C5B7A21B3FEAD00BBBBE0 /* MallardDuck.m */; };
+		0D0C5B7E21B3FF0C00BBBBE0 /* WildTurkey.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0C5B7D21B3FF0C00BBBBE0 /* WildTurkey.m */; };
+		0D0C5B8221B3FFC400BBBBE0 /* TurkeyAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0C5B8121B3FFC400BBBBE0 /* TurkeyAdapter.m */; };
 		0D7A671C21B3C20B00274888 /* NoCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7A671B21B3C20B00274888 /* NoCommand.m */; };
 		0D8578E921AC20C30008ACBC /* NYSauce.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8578E821AC20C30008ACBC /* NYSauce.m */; };
 		0D8578EC21AC20E00008ACBC /* NYDough.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8578EB21AC20E00008ACBC /* NYDough.m */; };
@@ -49,6 +53,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		0D0C5B6F21B3FD9D00BBBBE0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		0DB028F221B3BA8B00919B87 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -79,6 +92,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0D0C5B7121B3FD9D00BBBBE0 /* Adapter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Adapter; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D0C5B7321B3FD9D00BBBBE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D0C5B7821B3FE9800BBBBE0 /* Turkey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Turkey.h; sourceTree = "<group>"; };
+		0D0C5B7921B3FEAD00BBBBE0 /* MallardDuck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MallardDuck.h; sourceTree = "<group>"; };
+		0D0C5B7A21B3FEAD00BBBBE0 /* MallardDuck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MallardDuck.m; sourceTree = "<group>"; };
+		0D0C5B7C21B3FF0C00BBBBE0 /* WildTurkey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WildTurkey.h; sourceTree = "<group>"; };
+		0D0C5B7D21B3FF0C00BBBBE0 /* WildTurkey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WildTurkey.m; sourceTree = "<group>"; };
+		0D0C5B8021B3FFC400BBBBE0 /* TurkeyAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TurkeyAdapter.h; sourceTree = "<group>"; };
+		0D0C5B8121B3FFC400BBBBE0 /* TurkeyAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TurkeyAdapter.m; sourceTree = "<group>"; };
+		0D122EE521B3FC5B006C7EF5 /* Duck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Duck.h; sourceTree = "<group>"; };
 		0D7A671A21B3C20B00274888 /* NoCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoCommand.h; sourceTree = "<group>"; };
 		0D7A671B21B3C20B00274888 /* NoCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoCommand.m; sourceTree = "<group>"; };
 		0D8578E721AC20C30008ACBC /* NYSauce.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYSauce.h; sourceTree = "<group>"; };
@@ -160,6 +183,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0D0C5B6E21B3FD9D00BBBBE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0DB028F121B3BA8B00919B87 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -184,6 +214,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D0C5B7221B3FD9D00BBBBE0 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				0D0C5B7321B3FD9D00BBBBE0 /* main.m */,
+				0D0C5B8321B4011B00BBBBE0 /* Protocol */,
+				0D0C5B8421B4012600BBBBE0 /* ConcreteClass */,
+				0D0C5B7F21B3FF7900BBBBE0 /* Adapter */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		0D0C5B7F21B3FF7900BBBBE0 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				0D0C5B8021B3FFC400BBBBE0 /* TurkeyAdapter.h */,
+				0D0C5B8121B3FFC400BBBBE0 /* TurkeyAdapter.m */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		0D0C5B8321B4011B00BBBBE0 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				0D122EE521B3FC5B006C7EF5 /* Duck.h */,
+				0D0C5B7821B3FE9800BBBBE0 /* Turkey.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		0D0C5B8421B4012600BBBBE0 /* ConcreteClass */ = {
+			isa = PBXGroup;
+			children = (
+				0D0C5B7921B3FEAD00BBBBE0 /* MallardDuck.h */,
+				0D0C5B7A21B3FEAD00BBBBE0 /* MallardDuck.m */,
+				0D0C5B7C21B3FF0C00BBBBE0 /* WildTurkey.h */,
+				0D0C5B7D21B3FF0C00BBBBE0 /* WildTurkey.m */,
+			);
+			path = ConcreteClass;
+			sourceTree = "<group>";
+		};
 		0DB028F521B3BA8B00919B87 /* Command */ = {
 			isa = PBXGroup;
 			children = (
@@ -371,6 +441,7 @@
 				0DCAFC9921AAEDB900968AB3 /* DesignPatterns */,
 				0DCAFCA621AAEE1600968AB3 /* Factory */,
 				0DB028F521B3BA8B00919B87 /* Command */,
+				0D0C5B7221B3FD9D00BBBBE0 /* Adapter */,
 				0DCAFC9821AAEDB900968AB3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -381,6 +452,7 @@
 				0DCAFC9721AAEDB900968AB3 /* DesignPatterns */,
 				0DCAFCA521AAEE1600968AB3 /* Factory */,
 				0DB028F421B3BA8B00919B87 /* Command */,
+				0D0C5B7121B3FD9D00BBBBE0 /* Adapter */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -407,6 +479,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0D0C5B7021B3FD9D00BBBBE0 /* Adapter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D0C5B7721B3FD9D00BBBBE0 /* Build configuration list for PBXNativeTarget "Adapter" */;
+			buildPhases = (
+				0D0C5B6D21B3FD9D00BBBBE0 /* Sources */,
+				0D0C5B6E21B3FD9D00BBBBE0 /* Frameworks */,
+				0D0C5B6F21B3FD9D00BBBBE0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Adapter;
+			productName = Adapter;
+			productReference = 0D0C5B7121B3FD9D00BBBBE0 /* Adapter */;
+			productType = "com.apple.product-type.tool";
+		};
 		0DB028F321B3BA8B00919B87 /* Command */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0DB028FA21B3BA8B00919B87 /* Build configuration list for PBXNativeTarget "Command" */;
@@ -467,6 +556,9 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Vic Wan";
 				TargetAttributes = {
+					0D0C5B7021B3FD9D00BBBBE0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					0DB028F321B3BA8B00919B87 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -493,11 +585,23 @@
 				0DCAFC9621AAEDB900968AB3 /* DesignPatterns */,
 				0DCAFCA421AAEE1600968AB3 /* Factory */,
 				0DB028F321B3BA8B00919B87 /* Command */,
+				0D0C5B7021B3FD9D00BBBBE0 /* Adapter */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0D0C5B6D21B3FD9D00BBBBE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0C5B7B21B3FEAD00BBBBE0 /* MallardDuck.m in Sources */,
+				0D0C5B7421B3FD9D00BBBBE0 /* main.m in Sources */,
+				0D0C5B7E21B3FF0C00BBBBE0 /* WildTurkey.m in Sources */,
+				0D0C5B8221B3FFC400BBBBE0 /* TurkeyAdapter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0DB028F021B3BA8B00919B87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -561,6 +665,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		0D0C5B7521B3FD9D00BBBBE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 389BMU82Q2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0D0C5B7621B3FD9D00BBBBE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 389BMU82Q2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		0DB028F821B3BA8B00919B87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -729,6 +851,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0D0C5B7721B3FD9D00BBBBE0 /* Build configuration list for PBXNativeTarget "Adapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D0C5B7521B3FD9D00BBBBE0 /* Debug */,
+				0D0C5B7621B3FD9D00BBBBE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0DB028FA21B3BA8B00919B87 /* Build configuration list for PBXNativeTarget "Command" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
