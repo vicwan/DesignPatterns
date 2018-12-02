@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D7A671C21B3C20B00274888 /* NoCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7A671B21B3C20B00274888 /* NoCommand.m */; };
 		0D8578E921AC20C30008ACBC /* NYSauce.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8578E821AC20C30008ACBC /* NYSauce.m */; };
 		0D8578EC21AC20E00008ACBC /* NYDough.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8578EB21AC20E00008ACBC /* NYDough.m */; };
+		0DB028F721B3BA8B00919B87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB028F621B3BA8B00919B87 /* main.m */; };
+		0DB0290021B3BAED00919B87 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB028FF21B3BAED00919B87 /* Command.m */; };
+		0DB0290321B3BB0300919B87 /* LightOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB0290221B3BB0300919B87 /* LightOnCommand.m */; };
+		0DB0290621B3BB1200919B87 /* LightOffCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB0290521B3BB1200919B87 /* LightOffCommand.m */; };
+		0DB0290921B3BB5A00919B87 /* Light.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB0290821B3BB5A00919B87 /* Light.m */; };
+		0DB0290C21B3BB7700919B87 /* RemoteController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB0290B21B3BB7700919B87 /* RemoteController.m */; };
 		0DB77C8621AC1E9200A48DE8 /* Dough.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB77C8521AC1E9200A48DE8 /* Dough.m */; };
 		0DB77C8921AC1E9D00A48DE8 /* Sauce.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB77C8821AC1E9D00A48DE8 /* Sauce.m */; };
 		0DB77C8C21AC1EAB00A48DE8 /* Cheese.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB77C8B21AC1EAB00A48DE8 /* Cheese.m */; };
@@ -19,6 +26,16 @@
 		0DB77CA121AC1F6D00A48DE8 /* IngredientFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB77CA021AC1F6D00A48DE8 /* IngredientFactory.m */; };
 		0DB77CA421AC1F9600A48DE8 /* CAIngredientFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB77CA321AC1F9600A48DE8 /* CAIngredientFactory.m */; };
 		0DB77CA721AC1FA100A48DE8 /* NYIngredientFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB77CA621AC1FA100A48DE8 /* NYIngredientFactory.m */; };
+		0DC5C33721B3CEFF00330478 /* GarageDoorUpCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC5C33621B3CEFF00330478 /* GarageDoorUpCommand.m */; };
+		0DC5C33A21B3CF0B00330478 /* GarageDoorDownCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC5C33921B3CF0B00330478 /* GarageDoorDownCommand.m */; };
+		0DC5C33D21B3CF2600330478 /* GarageDoor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC5C33C21B3CF2600330478 /* GarageDoor.m */; };
+		0DC5C34021B3D0E600330478 /* Stereo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC5C33F21B3D0E600330478 /* Stereo.m */; };
+		0DC5C34321B3D0FD00330478 /* CeilingFan.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC5C34221B3D0FD00330478 /* CeilingFan.m */; };
+		0DC5C34621B3D12400330478 /* StereoOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC5C34521B3D12400330478 /* StereoOnCommand.m */; };
+		0DC5C34921B3D13400330478 /* StereoOffCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC5C34821B3D13400330478 /* StereoOffCommand.m */; };
+		0DC5C34C21B3D14400330478 /* CeilingFanOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC5C34B21B3D14400330478 /* CeilingFanOnCommand.m */; };
+		0DC5C34F21B3D14F00330478 /* CeilingFanOffCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC5C34E21B3D14F00330478 /* CeilingFanOffCommand.m */; };
+		0DC5C35221B3E7F600330478 /* MacroCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC5C35121B3E7F600330478 /* MacroCommand.m */; };
 		0DCAFC9B21AAEDB900968AB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCAFC9A21AAEDB900968AB3 /* main.m */; };
 		0DCAFCC121AAEE3500968AB3 /* NYPizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCAFCAF21AAEE3400968AB3 /* NYPizzaStore.m */; };
 		0DCAFCC221AAEE3500968AB3 /* NYStyleCheesePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCAFCB021AAEE3400968AB3 /* NYStyleCheesePizza.m */; };
@@ -32,6 +49,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		0DB028F221B3BA8B00919B87 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		0DCAFC9521AAEDB900968AB3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,10 +79,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0D7A671A21B3C20B00274888 /* NoCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoCommand.h; sourceTree = "<group>"; };
+		0D7A671B21B3C20B00274888 /* NoCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoCommand.m; sourceTree = "<group>"; };
 		0D8578E721AC20C30008ACBC /* NYSauce.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYSauce.h; sourceTree = "<group>"; };
 		0D8578E821AC20C30008ACBC /* NYSauce.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYSauce.m; sourceTree = "<group>"; };
 		0D8578EA21AC20E00008ACBC /* NYDough.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYDough.h; sourceTree = "<group>"; };
 		0D8578EB21AC20E00008ACBC /* NYDough.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYDough.m; sourceTree = "<group>"; };
+		0DB028F421B3BA8B00919B87 /* Command */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Command; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DB028F621B3BA8B00919B87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DB028FE21B3BAED00919B87 /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		0DB028FF21B3BAED00919B87 /* Command.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		0DB0290121B3BB0300919B87 /* LightOnCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightOnCommand.h; sourceTree = "<group>"; };
+		0DB0290221B3BB0300919B87 /* LightOnCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightOnCommand.m; sourceTree = "<group>"; };
+		0DB0290421B3BB1200919B87 /* LightOffCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightOffCommand.h; sourceTree = "<group>"; };
+		0DB0290521B3BB1200919B87 /* LightOffCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightOffCommand.m; sourceTree = "<group>"; };
+		0DB0290721B3BB5A00919B87 /* Light.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Light.h; sourceTree = "<group>"; };
+		0DB0290821B3BB5A00919B87 /* Light.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Light.m; sourceTree = "<group>"; };
+		0DB0290A21B3BB7700919B87 /* RemoteController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteController.h; sourceTree = "<group>"; };
+		0DB0290B21B3BB7700919B87 /* RemoteController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteController.m; sourceTree = "<group>"; };
 		0DB77C8421AC1E9200A48DE8 /* Dough.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dough.h; sourceTree = "<group>"; };
 		0DB77C8521AC1E9200A48DE8 /* Dough.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dough.m; sourceTree = "<group>"; };
 		0DB77C8721AC1E9D00A48DE8 /* Sauce.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sauce.h; sourceTree = "<group>"; };
@@ -77,6 +117,26 @@
 		0DB77CA321AC1F9600A48DE8 /* CAIngredientFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAIngredientFactory.m; sourceTree = "<group>"; };
 		0DB77CA521AC1FA100A48DE8 /* NYIngredientFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYIngredientFactory.h; sourceTree = "<group>"; };
 		0DB77CA621AC1FA100A48DE8 /* NYIngredientFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYIngredientFactory.m; sourceTree = "<group>"; };
+		0DC5C33521B3CEFF00330478 /* GarageDoorUpCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GarageDoorUpCommand.h; sourceTree = "<group>"; };
+		0DC5C33621B3CEFF00330478 /* GarageDoorUpCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GarageDoorUpCommand.m; sourceTree = "<group>"; };
+		0DC5C33821B3CF0B00330478 /* GarageDoorDownCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GarageDoorDownCommand.h; sourceTree = "<group>"; };
+		0DC5C33921B3CF0B00330478 /* GarageDoorDownCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GarageDoorDownCommand.m; sourceTree = "<group>"; };
+		0DC5C33B21B3CF2600330478 /* GarageDoor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GarageDoor.h; sourceTree = "<group>"; };
+		0DC5C33C21B3CF2600330478 /* GarageDoor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GarageDoor.m; sourceTree = "<group>"; };
+		0DC5C33E21B3D0E600330478 /* Stereo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stereo.h; sourceTree = "<group>"; };
+		0DC5C33F21B3D0E600330478 /* Stereo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stereo.m; sourceTree = "<group>"; };
+		0DC5C34121B3D0FD00330478 /* CeilingFan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CeilingFan.h; sourceTree = "<group>"; };
+		0DC5C34221B3D0FD00330478 /* CeilingFan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CeilingFan.m; sourceTree = "<group>"; };
+		0DC5C34421B3D12400330478 /* StereoOnCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StereoOnCommand.h; sourceTree = "<group>"; };
+		0DC5C34521B3D12400330478 /* StereoOnCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StereoOnCommand.m; sourceTree = "<group>"; };
+		0DC5C34721B3D13400330478 /* StereoOffCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StereoOffCommand.h; sourceTree = "<group>"; };
+		0DC5C34821B3D13400330478 /* StereoOffCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StereoOffCommand.m; sourceTree = "<group>"; };
+		0DC5C34A21B3D14400330478 /* CeilingFanOnCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CeilingFanOnCommand.h; sourceTree = "<group>"; };
+		0DC5C34B21B3D14400330478 /* CeilingFanOnCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CeilingFanOnCommand.m; sourceTree = "<group>"; };
+		0DC5C34D21B3D14F00330478 /* CeilingFanOffCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CeilingFanOffCommand.h; sourceTree = "<group>"; };
+		0DC5C34E21B3D14F00330478 /* CeilingFanOffCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CeilingFanOffCommand.m; sourceTree = "<group>"; };
+		0DC5C35021B3E7F600330478 /* MacroCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroCommand.h; sourceTree = "<group>"; };
+		0DC5C35121B3E7F600330478 /* MacroCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacroCommand.m; sourceTree = "<group>"; };
 		0DCAFC9721AAEDB900968AB3 /* DesignPatterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPatterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DCAFC9A21AAEDB900968AB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0DCAFCA521AAEE1600968AB3 /* Factory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Factory; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +160,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0DB028F121B3BA8B00919B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0DCAFC9421AAEDB900968AB3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -117,6 +184,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DB028F521B3BA8B00919B87 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				0DB028F621B3BA8B00919B87 /* main.m */,
+				0DB028FD21B3BAD700919B87 /* Receiver */,
+				0DB028FC21B3BAD100919B87 /* Invoker */,
+				0DB028FB21B3BACA00919B87 /* Command */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		0DB028FB21B3BACA00919B87 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				0DB028FE21B3BAED00919B87 /* Command.h */,
+				0DB028FF21B3BAED00919B87 /* Command.m */,
+				0DC5C35021B3E7F600330478 /* MacroCommand.h */,
+				0DC5C35121B3E7F600330478 /* MacroCommand.m */,
+				0D7A671A21B3C20B00274888 /* NoCommand.h */,
+				0D7A671B21B3C20B00274888 /* NoCommand.m */,
+				0DB0290121B3BB0300919B87 /* LightOnCommand.h */,
+				0DB0290221B3BB0300919B87 /* LightOnCommand.m */,
+				0DB0290421B3BB1200919B87 /* LightOffCommand.h */,
+				0DB0290521B3BB1200919B87 /* LightOffCommand.m */,
+				0DC5C33521B3CEFF00330478 /* GarageDoorUpCommand.h */,
+				0DC5C33621B3CEFF00330478 /* GarageDoorUpCommand.m */,
+				0DC5C33821B3CF0B00330478 /* GarageDoorDownCommand.h */,
+				0DC5C33921B3CF0B00330478 /* GarageDoorDownCommand.m */,
+				0DC5C34421B3D12400330478 /* StereoOnCommand.h */,
+				0DC5C34521B3D12400330478 /* StereoOnCommand.m */,
+				0DC5C34721B3D13400330478 /* StereoOffCommand.h */,
+				0DC5C34821B3D13400330478 /* StereoOffCommand.m */,
+				0DC5C34A21B3D14400330478 /* CeilingFanOnCommand.h */,
+				0DC5C34B21B3D14400330478 /* CeilingFanOnCommand.m */,
+				0DC5C34D21B3D14F00330478 /* CeilingFanOffCommand.h */,
+				0DC5C34E21B3D14F00330478 /* CeilingFanOffCommand.m */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		0DB028FC21B3BAD100919B87 /* Invoker */ = {
+			isa = PBXGroup;
+			children = (
+				0DB0290A21B3BB7700919B87 /* RemoteController.h */,
+				0DB0290B21B3BB7700919B87 /* RemoteController.m */,
+			);
+			path = Invoker;
+			sourceTree = "<group>";
+		};
+		0DB028FD21B3BAD700919B87 /* Receiver */ = {
+			isa = PBXGroup;
+			children = (
+				0DB0290721B3BB5A00919B87 /* Light.h */,
+				0DB0290821B3BB5A00919B87 /* Light.m */,
+				0DC5C33B21B3CF2600330478 /* GarageDoor.h */,
+				0DC5C33C21B3CF2600330478 /* GarageDoor.m */,
+				0DC5C33E21B3D0E600330478 /* Stereo.h */,
+				0DC5C33F21B3D0E600330478 /* Stereo.m */,
+				0DC5C34121B3D0FD00330478 /* CeilingFan.h */,
+				0DC5C34221B3D0FD00330478 /* CeilingFan.m */,
+			);
+			path = Receiver;
+			sourceTree = "<group>";
+		};
 		0DB77C7821AC1D7100A48DE8 /* Pizza */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,6 +370,7 @@
 			children = (
 				0DCAFC9921AAEDB900968AB3 /* DesignPatterns */,
 				0DCAFCA621AAEE1600968AB3 /* Factory */,
+				0DB028F521B3BA8B00919B87 /* Command */,
 				0DCAFC9821AAEDB900968AB3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -248,6 +380,7 @@
 			children = (
 				0DCAFC9721AAEDB900968AB3 /* DesignPatterns */,
 				0DCAFCA521AAEE1600968AB3 /* Factory */,
+				0DB028F421B3BA8B00919B87 /* Command */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -274,6 +407,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0DB028F321B3BA8B00919B87 /* Command */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DB028FA21B3BA8B00919B87 /* Build configuration list for PBXNativeTarget "Command" */;
+			buildPhases = (
+				0DB028F021B3BA8B00919B87 /* Sources */,
+				0DB028F121B3BA8B00919B87 /* Frameworks */,
+				0DB028F221B3BA8B00919B87 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Command;
+			productName = Command;
+			productReference = 0DB028F421B3BA8B00919B87 /* Command */;
+			productType = "com.apple.product-type.tool";
+		};
 		0DCAFC9621AAEDB900968AB3 /* DesignPatterns */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0DCAFC9E21AAEDB900968AB3 /* Build configuration list for PBXNativeTarget "DesignPatterns" */;
@@ -317,6 +467,9 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Vic Wan";
 				TargetAttributes = {
+					0DB028F321B3BA8B00919B87 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					0DCAFC9621AAEDB900968AB3 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -339,11 +492,36 @@
 			targets = (
 				0DCAFC9621AAEDB900968AB3 /* DesignPatterns */,
 				0DCAFCA421AAEE1600968AB3 /* Factory */,
+				0DB028F321B3BA8B00919B87 /* Command */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0DB028F021B3BA8B00919B87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB0290321B3BB0300919B87 /* LightOnCommand.m in Sources */,
+				0DC5C34921B3D13400330478 /* StereoOffCommand.m in Sources */,
+				0DC5C33A21B3CF0B00330478 /* GarageDoorDownCommand.m in Sources */,
+				0DB0290921B3BB5A00919B87 /* Light.m in Sources */,
+				0D7A671C21B3C20B00274888 /* NoCommand.m in Sources */,
+				0DB028F721B3BA8B00919B87 /* main.m in Sources */,
+				0DC5C35221B3E7F600330478 /* MacroCommand.m in Sources */,
+				0DC5C34021B3D0E600330478 /* Stereo.m in Sources */,
+				0DB0290621B3BB1200919B87 /* LightOffCommand.m in Sources */,
+				0DB0290021B3BAED00919B87 /* Command.m in Sources */,
+				0DC5C34C21B3D14400330478 /* CeilingFanOnCommand.m in Sources */,
+				0DC5C34621B3D12400330478 /* StereoOnCommand.m in Sources */,
+				0DC5C34F21B3D14F00330478 /* CeilingFanOffCommand.m in Sources */,
+				0DB0290C21B3BB7700919B87 /* RemoteController.m in Sources */,
+				0DC5C33D21B3CF2600330478 /* GarageDoor.m in Sources */,
+				0DC5C33721B3CEFF00330478 /* GarageDoorUpCommand.m in Sources */,
+				0DC5C34321B3D0FD00330478 /* CeilingFan.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0DCAFC9321AAEDB900968AB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -383,6 +561,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		0DB028F821B3BA8B00919B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 389BMU82Q2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0DB028F921B3BA8B00919B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 389BMU82Q2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		0DCAFC9C21AAEDB900968AB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -533,6 +729,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0DB028FA21B3BA8B00919B87 /* Build configuration list for PBXNativeTarget "Command" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DB028F821B3BA8B00919B87 /* Debug */,
+				0DB028F921B3BA8B00919B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0DCAFC9221AAEDB900968AB3 /* Build configuration list for PBXProject "DesignPatterns" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

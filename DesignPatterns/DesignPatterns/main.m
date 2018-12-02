@@ -10,8 +10,10 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        NSArray *arr = @[@"1", @"2"];
+        NSMutableArray *mArr = arr.mutableCopy;
+        [mArr addObject:@"3"];
+        NSLog(@"%@", mArr);
     }
     return 0;
 }
