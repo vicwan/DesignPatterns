@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D0A818E21B5815C001470EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0A818D21B5815C001470EE /* main.m */; };
+		0D0A819221B58163001470EE /* CaffeineBeverage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0A817E21B580F8001470EE /* CaffeineBeverage.m */; };
+		0D0A819321B58163001470EE /* Coffee.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0A818121B5811D001470EE /* Coffee.m */; };
+		0D0A819421B58163001470EE /* Tea.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0A818421B58136001470EE /* Tea.m */; };
 		0D0C5B7421B3FD9D00BBBBE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0C5B7321B3FD9D00BBBBE0 /* main.m */; };
 		0D0C5B7B21B3FEAD00BBBBE0 /* MallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0C5B7A21B3FEAD00BBBBE0 /* MallardDuck.m */; };
 		0D0C5B7E21B3FF0C00BBBBE0 /* WildTurkey.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0C5B7D21B3FF0C00BBBBE0 /* WildTurkey.m */; };
@@ -53,6 +57,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		0D0A818921B5815C001470EE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		0D0C5B6F21B3FD9D00BBBBE0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -92,6 +105,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0D0A817D21B580F8001470EE /* CaffeineBeverage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaffeineBeverage.h; sourceTree = "<group>"; };
+		0D0A817E21B580F8001470EE /* CaffeineBeverage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaffeineBeverage.m; sourceTree = "<group>"; };
+		0D0A818021B5811D001470EE /* Coffee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Coffee.h; sourceTree = "<group>"; };
+		0D0A818121B5811D001470EE /* Coffee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Coffee.m; sourceTree = "<group>"; };
+		0D0A818321B58136001470EE /* Tea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tea.h; sourceTree = "<group>"; };
+		0D0A818421B58136001470EE /* Tea.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tea.m; sourceTree = "<group>"; };
+		0D0A818B21B5815C001470EE /* TemplateMethod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TemplateMethod; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D0A818D21B5815C001470EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0D0C5B7121B3FD9D00BBBBE0 /* Adapter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Adapter; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D0C5B7321B3FD9D00BBBBE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0D0C5B7821B3FE9800BBBBE0 /* Turkey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Turkey.h; sourceTree = "<group>"; };
@@ -183,6 +204,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0D0A818821B5815C001470EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0D0C5B6E21B3FD9D00BBBBE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -214,6 +242,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D0A818C21B5815C001470EE /* TemplateMethod */ = {
+			isa = PBXGroup;
+			children = (
+				0D0A817D21B580F8001470EE /* CaffeineBeverage.h */,
+				0D0A817E21B580F8001470EE /* CaffeineBeverage.m */,
+				0D0A818021B5811D001470EE /* Coffee.h */,
+				0D0A818121B5811D001470EE /* Coffee.m */,
+				0D0A818321B58136001470EE /* Tea.h */,
+				0D0A818421B58136001470EE /* Tea.m */,
+				0D0A818D21B5815C001470EE /* main.m */,
+			);
+			path = TemplateMethod;
+			sourceTree = "<group>";
+		};
 		0D0C5B7221B3FD9D00BBBBE0 /* Adapter */ = {
 			isa = PBXGroup;
 			children = (
@@ -442,6 +484,7 @@
 				0DCAFCA621AAEE1600968AB3 /* Factory */,
 				0DB028F521B3BA8B00919B87 /* Command */,
 				0D0C5B7221B3FD9D00BBBBE0 /* Adapter */,
+				0D0A818C21B5815C001470EE /* TemplateMethod */,
 				0DCAFC9821AAEDB900968AB3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -453,6 +496,7 @@
 				0DCAFCA521AAEE1600968AB3 /* Factory */,
 				0DB028F421B3BA8B00919B87 /* Command */,
 				0D0C5B7121B3FD9D00BBBBE0 /* Adapter */,
+				0D0A818B21B5815C001470EE /* TemplateMethod */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -479,6 +523,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0D0A818A21B5815C001470EE /* TemplateMethod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D0A818F21B5815C001470EE /* Build configuration list for PBXNativeTarget "TemplateMethod" */;
+			buildPhases = (
+				0D0A818721B5815C001470EE /* Sources */,
+				0D0A818821B5815C001470EE /* Frameworks */,
+				0D0A818921B5815C001470EE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TemplateMethod;
+			productName = TemplateMethod;
+			productReference = 0D0A818B21B5815C001470EE /* TemplateMethod */;
+			productType = "com.apple.product-type.tool";
+		};
 		0D0C5B7021B3FD9D00BBBBE0 /* Adapter */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D0C5B7721B3FD9D00BBBBE0 /* Build configuration list for PBXNativeTarget "Adapter" */;
@@ -556,6 +617,9 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Vic Wan";
 				TargetAttributes = {
+					0D0A818A21B5815C001470EE = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					0D0C5B7021B3FD9D00BBBBE0 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -586,11 +650,23 @@
 				0DCAFCA421AAEE1600968AB3 /* Factory */,
 				0DB028F321B3BA8B00919B87 /* Command */,
 				0D0C5B7021B3FD9D00BBBBE0 /* Adapter */,
+				0D0A818A21B5815C001470EE /* TemplateMethod */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0D0A818721B5815C001470EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0A818E21B5815C001470EE /* main.m in Sources */,
+				0D0A819221B58163001470EE /* CaffeineBeverage.m in Sources */,
+				0D0A819421B58163001470EE /* Tea.m in Sources */,
+				0D0A819321B58163001470EE /* Coffee.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0D0C5B6D21B3FD9D00BBBBE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -665,6 +741,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		0D0A819021B5815C001470EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 389BMU82Q2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0D0A819121B5815C001470EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 389BMU82Q2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		0D0C5B7521B3FD9D00BBBBE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -851,6 +945,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0D0A818F21B5815C001470EE /* Build configuration list for PBXNativeTarget "TemplateMethod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D0A819021B5815C001470EE /* Debug */,
+				0D0A819121B5815C001470EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0D0C5B7721B3FD9D00BBBBE0 /* Build configuration list for PBXNativeTarget "Adapter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
